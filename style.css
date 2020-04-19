@@ -1,27 +1,35 @@
-#main {
+.main {
 	pass;
 }
 
-#title {
+.title {
 	pass;
 }
 
-#img-div {
+.img-div {
 	pass;
 }
 
-#image {
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.image {
+	max-width: 95%;
+	align-content: center;
+}
+
+.image-caption {
 	pass;
 }
 
-#image-caption {
+.tribute-info {
 	pass;
 }
 
-#tribute-info {
-	pass;
-}
-
-#tribute-link {
+.tribute-link {
 	pass;
 }
