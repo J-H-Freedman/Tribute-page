@@ -1,35 +1,49 @@
-.main {
-	pass;
+#main {
+	color: #DDD;
+	font-family: sans-serif;
+	font-size: 2em;
+	background-color: #222;
 }
 
-.title {
-	pass;
+#title {
+	align-self: center;
+	font-family: monospace;
+	font-size: 5em;
 }
 
-.img-div {
-	pass;
+#img-div {
+	margin: 0;
 }
-
 
 img {
 	max-width: 100%;
 	height: auto;
 	display: block;
+	margin: 0 auto;
 }
 
-.image {
-	max-width: 95%;
-	align-content: center;
+
+
+#image-caption {
+	font-style: italic;
+	font-size: 1em;
 }
 
-.image-caption {
-	pass;
+#tribute-info {
+	background-color: #444;
 }
 
-.tribute-info {
-	pass;
-}
-
-.tribute-link {
-	pass;
+#tribute-link {
+	a:link {
+		color: #FF5;
+	}
+	a:hover {
+		color: #FF0;
+	}
+	a:active {
+		color: #FFF;
+	}
+	a:visited {
+		color: #FFA;
+	}
 }
