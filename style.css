@@ -8,7 +8,8 @@
 #title {
 	text-align: center;
 	font-family: monospace;
-	font-size: 1.5em;
+	font-size: 2em;
+	padding: 1em;
 }
 
 #img-div {
@@ -24,10 +25,10 @@ img {
 	margin: 0 auto;
 }
 
-#image-caption {
+#img-caption {
 	font-style: italic;
 	font-size: 0.75em;
-	margin: 0 auto;
+	text-align: center;
 }
 
 #tribute-info {
@@ -35,23 +36,27 @@ img {
 	margin: 0 auto;
 }
 
-#tribute-link {
-	a:link {
+/*
+ #tribute-link { 
+*/
+	a:link; {
 		color: #FF5;
 	}
 	a:hover {
-		color: #FF0;
+		color: #DD5;
 	}
 	a:active {
 		color: #FFF;
 	}
 	a:visited {
-		color: #FFA;
+		color: #EE5;
 	}
-}
+/*
+} 
+*/
 
 @media (min-width: 600px) {
 	#tribute-info {
-		padding: 15px 17.5%;
+		padding: 15px 20%;
 	}
 }
